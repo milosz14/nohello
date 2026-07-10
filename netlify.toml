@@ -1,5 +1,5 @@
 [build]
-  publish = "build/"
+  publish = "_site"
   command = "yarn build"
 
 [[plugins]]
