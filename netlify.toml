@@ -1,8 +1,0 @@
-[build]
-  command = "yarn build"
-  publish = "_site"
-
-[[plugins]]
-  package = "netlify-plugin-cache"
-  [plugins.inputs]
-  paths = ["_site/img"]
